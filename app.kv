@@ -1,0 +1,46 @@
+WindowManager:
+
+<WindowManager>:
+    FirstWindow:
+    SecondWindow:
+
+<FirstWindow>:
+    name:"first"
+    BoxLayout:
+        size:root.size
+        orientation:"vertical"
+        Label:
+            text:root.question
+        GridLayout:
+            rows:2
+            cols:2
+            Button:
+                on_press:root.update(self)
+                text:root.b0text
+                on_release:
+                    app.root.current="second" if root.count==8 else "first"
+                    root.manager.transition.direction ="left"
+            Button:
+                on_press:root.update(self)
+                text:root.b1text
+                on_release:
+                    app.root.current="second" if root.count==8 else "first"
+                    root.manager.transition.direction ="left"
+            Button:
+                on_press:root.update(self)
+                text:root.b2text
+                on_release:
+                    app.root.current="second" if root.count==8 else "first"
+                    root.manager.transition.direction ="left"
+            Button:
+                on_press:root.update(self)
+                text:root.b3text
+                on_release:
+                    app.root.current="second" if root.count==8 else "first"
+                    root.manager.transition.direction ="left"
+<SecondWindow>:
+    name:"second"
+    Label:
+        text:"coungrats"
+        font_size:"40dp"
+        color:'#00ffff'

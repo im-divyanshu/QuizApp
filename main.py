@@ -44,7 +44,7 @@ class SecondWindow(Screen):
     pass
 class WindowManager(ScreenManager):
     pass
-#comment
+
 # class MainWidget(Widget):
 #     quiz_json=requests.get('https://the-trivia-api.com/api/questions').json()
 #     count=0

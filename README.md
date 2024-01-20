@@ -21,5 +21,8 @@ Contributions to QuizApp are highly encouraged. Whether you want to fix a bug, i
 GitHub Repository: QuizApp
 
 Dive into the world of interactive quizzes with QuizApp. Whether you're an educator, developer, or avid learner, QuizApp makes the process of creating and taking quizzes a breeze. Happy quizzing!
+## pics
+### 1
 ![Screenshot 2023-01-27 185049](https://user-images.githubusercontent.com/85323719/215099738-78ff420b-3151-4cc2-825f-66ff72589ee1.png)
+### 2
 ![Screenshot 2023-01-27 185444](https://user-images.githubusercontent.com/85323719/215099747-f40f4dda-7960-4596-be2f-9b44634473c3.png)
